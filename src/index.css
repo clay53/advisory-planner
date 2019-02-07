@@ -1,14 +1,125 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    size: "1px";
+    width: 40%;
+}
+
+ul#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+
+ul#navbar li {
+    float: left;
+}
+
+ul#navbar li a:not(.img) {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+
+ul #navbar li a.img {
+    display: block;
+    padding: 0px;
+}
+
+ul#navbar li a.clickable:hover {
+    background-color: #111;
+}
+
+ul.horizontalbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.horizontalbar-centered {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.horizontalbar li {
+    float: left;
+}
+
+ul.horizontalbar li span {
+    display: block;
+    color: black;
+    text-align: center;
+    line-height:0px;
+    font-size: 24px;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+ul.horizontalbar-centered li span {
+    display: block;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+ul.horizontalbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-color: #ddd
+}
+
+ul.horizontalbar-centered li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    padding: 14px 8px;
+    text-decoration: underline;
+    text-decoration-color: #ddd
+}
+
+ul.horizontalbar li a:hover {
+    background-color: #bbb;
+}
+
+ul.horizontalbar-centered li a:hover {
+    background-color: #bbb;
+}
+
+div.centered {
+    text-align: center
 }
